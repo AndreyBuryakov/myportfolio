@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster');
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+body {
+	background-color: #f2f2f2;
+	font-family: "Lobster";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+
+	margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Acme", "Lobster";
+	font-weight: 300;
+	color: #333; 
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	color: #f85c37;
+}
+
+a:hover, a:focus {
+	color: #f54545;
+	text-decoration: none;
+	outline: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar {
+	font-weight: 800;
+	font-size: 18px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+	background: black;
+	border-color: black;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #f54545;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #999;
+	font-weight: bolder;
+	font-size: 35px;
+	letter-spacing: 1px;
+}
+
+#headerwrap {
+    background: url(../img/header-bg.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 100px;
+	color: #f54545;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+
+}
+
+#headerwrap h2 {
+	color: #f54545;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	
+}
+
+.w {
+	padding-top: 35px;
+	
+}
+
+.w h4 {
+	font-size: 25px;
+}
+
+#dg {
+	background-color: #e0e0e0;
+	padding-bottom: 70px;
+	padding-top: 70px;
+	text-align: center;
+}
+
+#dg h4 {
+	font-size: 40px;
+	margin-bottom: 25px;
+	margin-top: -35px;
+}
+
+#img {
+	margin-bottom: 10px;
+}
+
+.wb {
+    background-color: black;
+    width: 100%;
+}
+
+.wb h4 {
+	font-size: 40px;
+	margin-bottom: 25px;
+	margin-top: -35px;
+	color: white;
+}
+
+.contacts {
+	font-size: 20px;
+	color: #f54545;
+}
+
+.fa-thumbs-o-up, .fa-usd, .fa-clock-o {
+    color: black;
+    text-shadow: 2px 2px 0 white;
+   }
+
+.fa-skype, .fa-envelope-o {
+    color: white;
+    text-shadow: 2px 2px 0 black;
+}
+
